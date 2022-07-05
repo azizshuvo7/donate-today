@@ -1,0 +1,35 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    justify-content: center;
+}
+
+.headline-top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 350%;
+    justify-content: center;
+    text-align: center;
+}
+
+.headline-middle{
+    margin-top: 20px;
+    color: black;
+    font-size: 250%;
+    justify-content: center;
+    text-align: center; 
+}
+.card{
+display: flex;
+  width: 1040px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+}
+

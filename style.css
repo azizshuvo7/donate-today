@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 #banner {
-    background-image: url(images/220628180819-01-bangladesh-flood-relief-exlarge-169.jpg);
+    background-image: url(https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/289014147_10160855969323690_883843603223501942_n.png?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGJOyp0_7tBSAy4CMvqAgzlsMYXpdO5gkewxhel07mCR-eUbjaQ5jVGkd5IjrukiHlFeP60wKCHwRn7pqaxCNkD&_nc_ohc=aHN6l7RkNOIAX9ILN8Z&_nc_ht=scontent.fdac5-1.fna&oh=00_AT86wnX_sgqoKpigoLjcBNrqBV769HEBgtemELU-S5ZYJw&oe=62C9F07B);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
@@ -226,13 +226,10 @@ input {
     font-size: 25px;
 }
 .shelter {
-    background-color: rgb(249, 229, 233);
-}
-.plan-shelter {
     height: 350px;
     width: 470px;
     padding: 60px 5px 10px 5px;
-    background-color: rgb(219, 236, 236);
+    background-color: rgb(189, 154, 183);
     border-radius: 5px;
 }
 .plan-shelter {
@@ -243,3 +240,104 @@ input {
     color: gray;
     font-size: 25px;
 }
+.medicine {
+    height: 350px;
+    width: 470px;
+    padding: 60px 5px 10px 5px;
+    background-color: rgb(215, 221, 135);
+    border-radius: 5px;
+}
+.plan-medicine {
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan-medicine-text {
+    color: gray;
+    font-size: 25px;
+}
+#how-to-contribute-section {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.how-contribute{
+    width: 200px;
+}
+.how-contribute img {
+    border: 10px solid white;
+    border-radius: 25px;
+}
+.how-contribute{
+    width: 200px;
+}
+.blog-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
+}
+.para-four {
+    color: gray;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
+}
+footer {
+    height: 200px;
+    background-color: black;
+}
+footer {
+    display: block;
+}
+footer h5 {
+    color: coral;
+    font-size: 35px;
+    font-style: italic;
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer p {
+    color: white;
+    font-size: 20px;
+}
+#myupdates {
+    margin-bottom: 100px;
+}
+.myupdates-box {
+    text-align: center;
+}
+.myupdates-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
+}
+.para-five {
+    color: gray;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
+}
+form {
+    justify-content: center;
+    margin-bottom: 70px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+footer {
+    height: 200px;
+    background-color: black;
+}
+

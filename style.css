@@ -1,35 +1,245 @@
-
-
-*{
-    padding: 0%;
-    margin: 0%;
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0;
 }
-.container{
+#banner {
+    background-image: url(images/220628180819-01-bangladesh-flood-relief-exlarge-169.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin-top: 0;
     justify-content: center;
-}
+    padding-top: 200px;
 
-.headline-top {
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+.banner-title {
+    justify-content: center;
+    padding-top: 200px;
+}
+h1 {
+    color: white;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#para-one {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 25px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.donate-container {
+    text-align: center;
+    padding-top: 150px;
+}
+.title-two {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#para-two {
     color: gray;
-    font-size: 350%;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#amount-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.donate-amount {
+    background-color: rgba(220, 220, 220, 0.452);
+    padding: 60px 50px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.donate-amount-red {
+    background-color: rgba(237, 200, 200, 0.452);
+    padding: 60px 50px;
+    border-radius: 10px;
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+    border: 2px solid red;
+}
+form {
     justify-content: center;
+    margin-bottom: 70px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rgb(224, 222, 222);
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#donate {
+    height: 1000px;
+}
+.donate-container {
+    text-align: center;
+    padding-top: 150px;
+}
+.headline {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
+}
+#donate-plan {
+    height: 800px;
+    margin-bottom: 0;
+}
+.donate-container2 {
     text-align: center;
 }
-
-.headline-middle{
-    margin-top: 20px;
-    color: black;
-    font-size: 250%;
-    justify-content: center;
-    text-align: center; 
+.donate-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
 }
-.card{
-display: flex;
-  width: 1040px;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.donate-para {
+    color: gray;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
 }
-
+.title-three {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
 }
-
+.para-three {
+    color: gray;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
+}
+#plan {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.food {
+    height: 350px;
+    width: 470px;
+    padding: 60px 5px 10px 5px;
+    background-color: rgb(219, 236, 236);
+    border-radius: 5px;
+}
+.plan-food {
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan-food-text {
+    color: gray;
+    font-size: 25px;
+}
+.shelter {
+    background-color: rgb(249, 229, 233);
+}
+.plan-shelter {
+    height: 350px;
+    width: 470px;
+    padding: 60px 5px 10px 5px;
+    background-color: rgb(219, 236, 236);
+    border-radius: 5px;
+}
+.plan-shelter {
+    font-size: 30px;
+    font-weight: bold;
+}
+.plan-shelter-text {
+    color: gray;
+    font-size: 25px;
+}
